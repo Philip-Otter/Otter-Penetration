@@ -73,7 +73,8 @@
 ### systeminfo
 ### ver
 	Returns the Windows build information
-hostname
+### hostname
+
 ## Service Information
 ***
 ### sc
@@ -109,7 +110,7 @@ hostname
 ***
 ### wevtutil
 ### Get-WinEvent
-# Commands To Compare & Sort Data
+# Commands To Compare, Find, & Sort Data
 ***
 ## Compare Files
 ***
@@ -130,6 +131,12 @@ hostname
 ### find str
 	Finds a string
 
+## Find Files
+***
+### Finding Non-Empty Files In A Directory
+- PowerShell
+	- ==Command:==  get-childitem -Path {path} -Recurse -Force -File | Where {$_.Length -notlike "0"}
+		- This  will even show non empty hidden files
 ## Sort Data
 ***
 ### sort
