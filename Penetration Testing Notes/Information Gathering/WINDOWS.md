@@ -157,6 +157,61 @@ hostname
 	Contains PowerShell code
 ## .evtx
 	Windows Event Log files
+
+# Protocols
+***
+## Kerberos
+***
+	Network level authentication protocol
+	Common in AD environments
+- Port 88
+- TCP/UDP
+## LDAP
+***
+	Lightweight Directory Access Protocol
+	Used for authentication and authorization with various directory services
+- Port 389
+- TCP/UDP
+## LDAPS
+***
+	Like LDAP but with a TLS/SSL connection
+- Port 636
+- TCP/UDP
+
+## RDP
+***
+	Remote Desktop Protocol
+- Port 3389
+- TCP
+
+## SMB
+***
+	Server Message Block
+- Port 139
+	- Used by SMB that talks over NeTBIOS
+	- NetBIOS over TCP (NBT)
+		- Also supports UDP
+- Port 445
+	- Modern SMB post Windows 2000
+	- TCP/UDP
+		- Windows Vista & Windows Server 2008 with SMB 2.0.2 and up requires TCP
+
+## WinRM
+***
+	Windows Remote Management
+	Microsoft implementation of WS-Management Protocol
+	Used to manage hardware and software functionality of hosts
+	Can be used for host enumeration and scripting
+- WinRM HTTP
+	- Windows 7 and on
+		- Port 5985
+	- Pre-Windows 7
+		- Port 80
+- WinRM HTTPS
+	- Windows 7 and on
+		- Port 5986
+	- Pre-Windows 7
+		- Port 443
 # Stealth
 ***
 ## Theory
