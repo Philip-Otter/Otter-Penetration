@@ -69,6 +69,13 @@ hostname
 - /S
 	- Specify a remote system
 -  ==Syntax:==  schtasks {comandFlag} /TN {taskName}
+
+## AD Information
+***
+### Get-ADUser & GetADGroup
+##### Useful Flags & Searches
+- -Filter
+	- ==Syntax:==  Get-{ADUser|ADGroup} -Filter {field} -Like {term}
 # Commands To Compare & Sort Data
 ***
 ## Compare Files
@@ -163,3 +170,26 @@ hostname
 ***
 ## Domain Users
 ***
+
+# Valuable Data Locations
+***
+## \\AppData\
+***
+- Config files
+- Temp Saves
+## C:\\Users\{user}\
+***
+- VPN Keys
+- SSH Keys
+## C:\\Users\\{user}\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt
+***
+- Console History
+## Get-Content (Get-PSReadlineOption).HistorySavePath
+***
+- Console History
+## Get-Clipboard
+***
+- Clipboard Contents
+## Scheduled Tasks
+***
+	We could find all sorts of potentially valuable information hidden in the schedualed tasks.
