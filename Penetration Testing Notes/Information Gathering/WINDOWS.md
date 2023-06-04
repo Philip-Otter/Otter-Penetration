@@ -33,11 +33,27 @@
 	Running this is pretty noisey.
 	Provides a huge wealth of information!
 ### ipconfig
+### Get-NetIPAddress
+	Similar to ipconfig
+
+### Get-NetRoute
+	Prints out our routing table
+
+### Get-IPInterface
+	Gets all visible network adapter properties
 ### arp
 ###### Useful Flags
 - -a/-g
 	- Returns the ARP tables.
 
+### netstat
+	Show network connections to our host
+##### Useful Flags
+- -n
+	- Does not resolve IPs to Hostnames
+
+### Test-NetConnection
+	Powerful tool for testing and teasing out network data
 ## Registry Information
 ***
 ### Get-Item Property -path {registyPath}
