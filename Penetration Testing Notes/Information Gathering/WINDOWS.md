@@ -23,6 +23,22 @@ hostname
 ***
 ### set
 	Used to set vairable values but can be used without any flags to return all currently assigned variables.
+### $env
+##### Options
+- ==Syntax:==  $env:{option}
+- PSModulePath
+### Get-ExecutionPolicy
+	Checks PowerShell execution policy
+##### Useful Flags
+- -List
+	- Provides us with more than just our current sessions execution policy
+- -Scope {scopeValue}
+	- Allows us to pick our scope for the command
+	- Process
+	- CurrentUser
+	- LocalMachine
+	- UserPolicy
+	- MachinePolicy
 ## Service Information
 ***
 ### sc
@@ -121,9 +137,29 @@ hostname
 ***
 ## Theory
 ***
-#### PowerShell
+### PowerShell
 	PowerShell is noisey and keeps detailed logs. If you don't need it's functionality stick with CMD which has less logging.
 	PowerShell usage itself can cause alerts to go off depending on security configurations.
-#### CMD
+#### Execution Policy
+	We should be concious of changing our execution policy. If we do change our policy we should change it back to cover our tracks. We can also use the -scope tag with the Set-ExecutionPolicy to limit the change of our execution policy changes to avoid detection.
+### CMD
 	Users are likely not to be using CMD.
 	CMD usage can cause alarms to go off but it is stealthier than PowerShell.
+
+# User Account Types
+***
+	Four main types
+## Service Accounts
+***
+## Built-In Accounts
+***
+### Administrator
+### Default Account
+	Used to run multi-user auth apps
+### Guest Account
+	Disabled by default
+### WDAG
+## Local Users
+***
+## Domain Users
+***
