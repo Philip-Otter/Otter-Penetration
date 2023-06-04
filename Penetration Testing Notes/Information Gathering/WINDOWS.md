@@ -99,14 +99,33 @@ hostname
 ### find str
 	Finds a string
 
-# Command To Find Commands
+# Commands To Find Commands
 ***
 ## PowerShell
 ***
-#### Get-Command
+### Get-Command
 	Lists all available commmands
 ##### Useful Flags
 - -verb
 	- ==Syntax:==  Get-Command -verb {verb}
 ### Alias
 	List all set aliases
+	By default there are a lot of linux like aliases in place
+### Get PowerShell Keyboard Shortcuts
+***
+	CTRL+ALT+SHIFT+?
+### Finding Options & Functions For A cmdlet
+***
+### Get-Help
+	Similar to linux man page
+##### Useful Flags
+- -Online
+	- Pulls the online man page for the command in a web browser
+### Get-Member
+	Gets the properties and methods of objects
+### Get-Module
+	Finds PowerShell Modules
+	By default it only grabs the modules that are loaded into our current session
+##### Useful Flags
+- -ListAvailable
+	- Shows Installed but perhaps not loaded modules
