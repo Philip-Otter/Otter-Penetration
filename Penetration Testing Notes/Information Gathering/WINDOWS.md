@@ -54,6 +54,12 @@
 
 ### Test-NetConnection
 	Powerful tool for testing and teasing out network data
+
+### Test-WSMan
+	Test a computer for WinRM
+	Unauthenticated 
+- Use -ComputerName flag
+- Use '-Authentication Negotiate' to test authentication 
 ## Registry Information
 ***
 ### Get-Item Property -path {registyPath}
