@@ -40,15 +40,7 @@ hostname
 			- active
 			- inactive
 			- all
-- start
-	- ==Syntax:==  sc start {service name}
-- stop
-	- ==Syntax:==  sc stop {service name}
-- config
-	- ==Syntax== sc config {service name} {property}={updatedValue}
 ### tasklist /svc
-### net {start|stop|pause|continue}
-- ==Syntax:==  net {command} {serviceName}
 ### wmic service list brief
 	Lists services using Windows Manegment Instrumentation Command
 	!!!!! WMIC is depreciated !!!!!
@@ -59,19 +51,8 @@ hostname
 #### Useful Flags
 - /Query
 	- List all scheduled tasks
-- /Create
-	- Create a new task
-- /Delete
-- /Change
-	- Edit properties of a task
-- /Run
-	- Run a scheduled task
-- /End
-	- Stops a task
 - /S
 	- Specify a remote system
-- /U /P
-	- Specify a username and password
 -  ==Syntax:==  schtasks {comandFlag} /TN {taskName}
 # Commands To Compare & Sort Data
 ***
