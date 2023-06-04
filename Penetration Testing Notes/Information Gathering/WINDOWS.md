@@ -5,7 +5,7 @@
 ### Get-ADUser & GetADGroup
 ##### Useful Flags & Searches
 - -Filter
-	- ==Syntax:==  Get-{ADUser|ADGroup} -Filter {field} -Like {term}
+	- ==Syntax:==  Get-{ADUser|ADGroup} -Filter { {filterStatement} }
 
 ## Environment Information
 ***
@@ -106,10 +106,22 @@
 	- Specify a remote system
 -  ==Syntax:==  schtasks {comandFlag} /TN {taskName}
 
+## User & Group Information
+***
+### Get-LocalUser 
+	Without anything else it lists all local users
+### Get-LocalGroup
+	Without anything else it lists all local groups
 ## Windows Event Logs
 ***
 ### wevtutil
 ### Get-WinEvent
+- Finding by event ID
+	- ==Command:==  Get-WinEvent -ErrorAction SilentlyContinue | where  {$_.Id -contains {idValue}} | ft {properties} -Wrap
+		- PowerShell only command
+		- Silently Continues to avoid breaking our pipeline
+	- ==Command:== Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625'} | Select-Object -ExpandProperty Message
+		- PowerShell only 
 # Commands To Compare, Find, & Sort Data
 ***
 ## Compare Files
@@ -128,8 +140,11 @@
 
 ## Find Data
 ***
-### find str
+### findstr
 	Finds a string
+##### Useful Flags
+- /I
+	- Make search case insensitive
 
 ## Find Files
 ***
