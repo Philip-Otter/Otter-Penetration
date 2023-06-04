@@ -1,4 +1,14 @@
 
+# Stealth
+***
+## Theory
+***
+#### PowerShell
+	PowerShell is noisey and keeps detailed logs. If you don't need it's functionality stick with CMD which has less logging.
+	PowerShell usage itself can cause alerts to go off depending on security configurations.
+#### CMD
+	Users are likely not to be using CMD.
+	CMD usage can cause alarms to go off but it is stealthier than PowerShell.
 # Commands To Gather Data
 ***
 ## Network Information
