@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Post Exploitation/WINDOWS.md",
+                "file": "Information Gathering/TYPES OF INFORMATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Post Exploitation/WINDOWS.md",
+                "file": "Information Gathering/TYPES OF INFORMATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Post Exploitation/WINDOWS.md",
+                "file": "Information Gathering/TYPES OF INFORMATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Post Exploitation/WINDOWS.md"
+                "file": "Information Gathering/TYPES OF INFORMATION.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Exploitation/WINDOWS.md",
     "Post Exploitation/WINDOWS.md",
+    "Information Gathering/TYPES OF INFORMATION.md",
+    "Exploitation/WINDOWS.md",
     "Information Gathering/WINDOWS.md",
     "Exploitation/SHELLS.md",
     "Untitled.md",
