@@ -1,24 +1,12 @@
 # Commands To Gather Data
 ***
-## Network Information
+## AD Information
 ***
-### net
-	Running this is pretty noisey.
-	Provides a huge wealth of information!
-### ipconfig
-### arp
-###### Useful Flags
-- -a/-g
-	- Returns the ARP tables.
-## System Information
-***
-### whoami
-###### Useful Flags
-- /all
-### systeminfo
-### ver
-	Returns the Windows build information
-hostname
+### Get-ADUser & GetADGroup
+##### Useful Flags & Searches
+- -Filter
+	- ==Syntax:==  Get-{ADUser|ADGroup} -Filter {field} -Like {term}
+
 ## Environment Information
 ***
 ### set
@@ -39,6 +27,31 @@ hostname
 	- LocalMachine
 	- UserPolicy
 	- MachinePolicy
+## Network Information
+***
+### net
+	Running this is pretty noisey.
+	Provides a huge wealth of information!
+### ipconfig
+### arp
+###### Useful Flags
+- -a/-g
+	- Returns the ARP tables.
+
+## Registry Information
+***
+### Get-Item Property -path {registyPath}
+### Reg
+### Get-ChildItem -Path {registryPath}
+## System Information
+***
+### whoami
+###### Useful Flags
+- /all
+### systeminfo
+### ver
+	Returns the Windows build information
+hostname
 ## Service Information
 ***
 ### sc
@@ -70,12 +83,10 @@ hostname
 	- Specify a remote system
 -  ==Syntax:==  schtasks {comandFlag} /TN {taskName}
 
-## AD Information
+## Windows Event Logs
 ***
-### Get-ADUser & GetADGroup
-##### Useful Flags & Searches
-- -Filter
-	- ==Syntax:==  Get-{ADUser|ADGroup} -Filter {field} -Like {term}
+### wevtutil
+### Get-WinEvent
 # Commands To Compare & Sort Data
 ***
 ## Compare Files
@@ -92,16 +103,20 @@ hostname
 
 
 
-## Sort Data
-***
-### sort
-	Sorts data given
-	0-9 A-z
 ## Find Data
 ***
 ### find str
 	Finds a string
 
+## Sort Data
+***
+### sort
+	Sorts data given
+	0-9 A-z
+### ft
+	Alias for Format-Table
+	Can even select properties with it
+##### ==Syntax:==  ft {Properties(seperated by commas)}
 # Commands To Find Commands
 ***
 ## PowerShell
@@ -140,6 +155,8 @@ hostname
 ## .psm1
 	PowerShell script module file
 	Contains PowerShell code
+## .evtx
+	Windows Event Log files
 # Stealth
 ***
 ## Theory
@@ -193,3 +210,8 @@ hostname
 ## Scheduled Tasks
 ***
 	We could find all sorts of potentially valuable information hidden in the schedualed tasks.
+
+## C:\\Windows\\System32\\winevt\logs
+***
+- Windows Event Logs
+- Event Logs have .evtx extensions
