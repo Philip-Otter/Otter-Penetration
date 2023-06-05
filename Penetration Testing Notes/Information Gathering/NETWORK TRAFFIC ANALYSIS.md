@@ -62,6 +62,7 @@
 	Windows twin called WinDump
 	Can be used through remote connections
 ## Commands
+***
 - -D
 	- Displays available interfaces
 - -i
@@ -80,6 +81,9 @@
 	- Grab a specific number of packets then quit the program
 - -s
 	- Defines how much of a packet to grab
+- -S
+	- Use absolute sequence numbers
+	- tcpdump defaults to relative sequence numbers
 - -q
 	- Print less protocol information
 - -r
@@ -88,6 +92,28 @@
 - -w
 	- Write into a file
 	- ==Syntax:== tcpdump ... -w {fileName}.pcap
+## Filters
+***
+- host
+	- show anything with a defined host
+- src/dest
+	- designates src or dest 
+	- works on host or ports
+- net
+	- show any traffic sourcing from or  to the designated newtork
+- proto
+	- Filter for a designated protocol
+- port
+	- show any traffic to or from the designated port
+- less/greater
+	- used to look for a packet or protocol option of a specific size
+	- <,>
+- and
+	- combine filters
+	- &&
+- or 
+- not
+### [[NETWORK TRAFFIC ANALYSIS#Resources & Tools#Common Syntax For Most Tools#https //www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters|BPF]]
 # TLS & SSL
 ***
 ## TLS
