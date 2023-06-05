@@ -56,6 +56,38 @@
 ### FIN, ACK
 
 
+# Tcpdump
+***
+	Command line packet sniffer
+	Windows twin called WinDump
+	Can be used through remote connections
+## Commands
+- -D
+	- Displays available interfaces
+- -i
+	- Selects an interface to capture from 
+- -n
+	- Don't resolve hostnames
+- -nn
+	- Don't resolve hostnames and well-known ports
+- -e
+	- Grab ethernet header w/ upper-layer data
+- -X
+	- Show contents of packets in hex and ASCII
+- -XX
+	- X and specify ethernet headers
+- -c
+	- Grab a specific number of packets then quit the program
+- -s
+	- Defines how much of a packet to grab
+- -q
+	- Print less protocol information
+- -r
+	- Read from a file
+	- ==Syntax:== tcpdump -r {fileName}.pcap
+- -w
+	- Write into a file
+	- ==Syntax:== tcpdump ... -w {fileName}.pcap
 # TLS & SSL
 ***
 ## TLS
