@@ -86,6 +86,8 @@
 - -X
 	- Set Request type
 	- ==Syntax:==  curl -X {requestType} {URI}
+### Pipe into jq to format
+- ==Syntax:== curl -s ... | jq
 # Resources & General Notes
 ***
 ## HTTPS
