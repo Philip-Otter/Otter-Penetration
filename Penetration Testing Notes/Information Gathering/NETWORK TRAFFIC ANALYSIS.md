@@ -1,3 +1,31 @@
+# FTP
+***
+	Insecure 
+	Uses multiple ports at the same time. (20 & 21)
+		20 to transport data
+		21 to issue commands and controlling the session
+	Uses two different modes
+		Active
+			default for FTP
+			Server is listening for a control command port from the client
+				States what port to be used for data transfer
+		Passive
+			Allows for access to FTP servers behind firwalls, NAT-enabled links, etc
+## Commands
+***
+### USER
+### PASS
+### PORT
+	Changes the port used for data transfer while in active mode
+### PASV
+	Changes the connection to passive 
+### LIST
+### SWD
+### PWD
+### SIZE
+### RETR
+	Retrieves a file from the server
+### QUIT
 # HTTPS
 ***
 	Can utilize either TLS or SSL.
