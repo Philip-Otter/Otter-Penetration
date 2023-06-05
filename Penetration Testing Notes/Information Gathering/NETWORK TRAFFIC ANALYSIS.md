@@ -31,6 +31,16 @@
 	Can utilize either TLS or SSL.
 	Uses ports 443 and 8443
 
+# ICMP Protocol
+***
+## (RFC) Request for Comments
+***
+### https://tools.ietf.org/html/rfc792
+# IP Protocol
+***
+## (RFC) Request for Comments
+***
+### https://tools.ietf.org/html/rfc791
 # Resources & Tools
 ***
 ## Common Syntax For Most Tools 
@@ -56,6 +66,9 @@
 ### FIN, ACK
 
 
+## RFC (Request for Comments)
+***
+### https://tools.ietf.org/html/rfc793
 # Tcpdump
 ***
 	Command line packet sniffer
@@ -73,6 +86,11 @@
 	- Don't resolve hostnames and well-known ports
 - -e
 	- Grab ethernet header w/ upper-layer data
+- -L
+	- Line buffer 
+	- Allows for sending the output to another command via a pipe
+- -A 
+	- Show contents in ASCII
 - -X
 	- Show contents of packets in hex and ASCII
 - -XX
@@ -101,6 +119,7 @@
 	- works on host or ports
 - net
 	- show any traffic sourcing from or  to the designated newtork
+	- uses "/" notation
 - proto
 	- Filter for a designated protocol
 - port
@@ -126,3 +145,9 @@
 4. Generate a master secret 
 5. Client and server issue negotiated security parameters to the record layer
 6. Client and server verify that their peer has calculated the same security parameters and that no tampering has occured
+
+# UDP Protocol
+***
+## (RFC) Request for Comments
+***
+https://tools.ietf.org/html/rfc768
