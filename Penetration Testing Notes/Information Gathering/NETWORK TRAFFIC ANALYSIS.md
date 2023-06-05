@@ -38,6 +38,9 @@
 ### https://www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters
 	Berkeley Packet Filters
 
+# SMB
+***
+## [[Information Gathering/WINDOWS#Protocols#SMB|READ MORE HERE]]
 # TCP
 ***
 ## Packet Flags
