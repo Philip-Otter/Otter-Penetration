@@ -76,13 +76,16 @@
 	- Output to file with ==defined== file name
 - -k
 	- Skip Certificate check
-- -i
-	- Specify a request type
 - -H
 	- Set header values
 - -u 
 	- Provide credentials to the site
 	- ==Syntax:==  curl -u {user}:{password} {URI}
+- -d, --data
+	- HTTP data
+- -X
+	- Set Request type
+	- ==Syntax:==  curl -X {requestType} {URI}
 # Resources & General Notes
 ***
 ## HTTPS
