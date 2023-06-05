@@ -1,3 +1,8 @@
+# HTTPS
+***
+	Can utilize either TLS or SSL.
+	Uses ports 443 and 8443
+
 # Resources & Tools
 ***
 ## Common Syntax For Most Tools 
@@ -19,3 +24,16 @@
 	Client finishes off with a FIN
 ### FIN, ACK
 
+
+# TLS & SSL
+***
+## TLS
+***
+	Takes place after establishing a TCP session
+### Handshake
+1. Client and server exchange hello messages
+2. Client and server exchange cryptographic parameters
+3. Client and server exchange x.509 certificates and cryptographic information allowing for sessions authentication
+4. Generate a master secret 
+5. Client and server issue negotiated security parameters to the record layer
+6. Client and server verify that their peer has calculated the same security parameters and that no tampering has occured

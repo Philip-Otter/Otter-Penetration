@@ -29,6 +29,10 @@
 	Returns information about the server
 ### PATCH
 	Applies partial modifications to resources
+### CONNECT
+	Reserved for use with proxies, firewalls, and other security devices.
+	Allows for tunneling over HTTP
+		SSL tunnels
 # Responses
 ***
 ## ==200==
