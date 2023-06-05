@@ -4,10 +4,39 @@
 ***
 	A nice list of different types of stacks.
 
+# Headers
+***
+## Security Headers
+***
+### Content-Security-Policy
+	Dictates teh websites policy torwards externally injected resources
+### Strict-Transport-Security
+	Prevents HTTP traffic
+### Referrer-Policy
+	Dictates whether the browser should include the value specified via the referer.
+	Can help avoid leaking URLs and information
+
+## Methods
+***
+### GET
+### POST
+### HEAD
+	Returns the headers that would have been returned if a GET request was made.
+### PUT
+	Create new resources on the server
+### DELETE
+### OPTIONS
+	Returns information about the server
+### PATCH
+	Applies partial modifications to resources
 # Responses
 ***
 ## ==200==
 ### OK
+## ==201==
+### Created
+	Success status
+	Indicates that the request has led to the creation of a resource
 ## ==301==
 ### Moved Permanently
 ## ==302==
@@ -34,3 +63,30 @@
 ### Bad Gateway
 ## ==504==
 ### Gateway Timeout
+# Requests
+***
+## curl
+***
+### Useful Flags
+- -I
+	- Provides Header Values
+- -O
+	- Output to file using remote file name
+- -o
+	- Output to file with ==defined== file name
+- -k
+	- Skip Certificate check
+- -i
+	- Specify a request type
+- -H
+	- Set header values
+- -u 
+	- Provide credentials to the site
+	- ==Syntax:==  curl -u {user}:{password} {URI}
+# Resources & General Notes
+***
+## HTTPS
+***
+### HTTPS Flow
+#### ![[Pasted image 20230604185023.png]]
+	From HTB Academy
