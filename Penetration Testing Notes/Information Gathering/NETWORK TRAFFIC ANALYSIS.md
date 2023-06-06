@@ -64,17 +64,15 @@
 	Server responds with its own FIN, ACK
 	Client finishes off with a FIN
 ### FIN, ACK
-
-
 ## RFC (Request for Comments)
 ***
 ### https://tools.ietf.org/html/rfc793
-# Tcpdump
+# TCPdump
 ***
 	Command line packet sniffer
 	Windows twin called WinDump
 	Can be used through remote connections
-## Commands
+## Command Flags
 ***
 - -D
 	- Displays available interfaces
@@ -113,7 +111,7 @@
 ## Filters
 ***
 - host
-	- show anything with a defined host
+	- show anything with a designated host
 - src/dest
 	- designates src or dest 
 	- works on host or ports
@@ -133,6 +131,42 @@
 - or 
 - not
 ### [[NETWORK TRAFFIC ANALYSIS#Resources & Tools#Common Syntax For Most Tools#https //www.ibm.com/docs/en/qsip/7.4?topic=queries-berkeley-packet-filters|BPF]]
+# TShark
+***
+## Command Flags
+***
+- -D
+	- List available interfaces to capture from
+- -L
+	- Will list the link-layer mediums you can capture from
+- -i
+	- Select an interface to capture from
+- -f
+	- packet filter during capture
+- -c
+	- Grab a set number of packets
+- - a 
+	- Defines an auto-stop condition
+		- time
+		- file size
+		- number of packets
+- -r
+	- read from file
+- -W
+	- Write into a file
+		- pcapng format
+- -P
+	- print the packet summary while writing into a file
+- -x
+	- add HEX and ASCII output
+- 1
+
+## Termshark
+***
+	A text based user interface
+	Similar to wireshark but can run right in the terminal
+### Download links
+#### https://github.com/gcla/termshark
 # TLS & SSL
 ***
 ## TLS
