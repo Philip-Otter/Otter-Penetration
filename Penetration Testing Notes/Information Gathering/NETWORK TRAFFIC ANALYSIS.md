@@ -193,3 +193,14 @@ https://tools.ietf.org/html/rfc768
 ### FTP
 - Find all FTP commands
 	- ==Filter:==  ftp.request.command
+
+## Adding a key in Wireshark
+***
+1. Edit
+2. Preferences
+3. Protocols
+4. Select the protocol
+	1. Depends on what type of key you are going to be adding
+5. Add a new key
+6. Fill out all fields
+7. Save and refresh
