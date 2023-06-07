@@ -2,6 +2,12 @@
 ***
 	This allows for SSO within the environment.
 	Uses client based access control
+
+# GUID (Global Unique Identifier)
+***
+	A unique 128-bit value
+	Assigned when a domain user or group  is created
+	Used by AD to identify objects internally
 # Things To Understand
 ***
 	AD is designed to be backwards compatible so many features are not secure by default

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
+                "file": "Information Gathering/ACTIVE DIRECTORY.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
+                "file": "Information Gathering/ACTIVE DIRECTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
+                "file": "Information Gathering/ACTIVE DIRECTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lateral Movement/ACTIVE DIRECTORY.md"
+                "file": "Information Gathering/ACTIVE DIRECTORY.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Lateral Movement/ACTIVE DIRECTORY.md",
     "Information Gathering/WINDOWS.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
-    "Lateral Movement/ACTIVE DIRECTORY.md",
     "Post Exploitation/WINDOWS.md",
     "Exploitation/SHELLS.md",
     "Exploitation/WINDOWS.md",
