@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/ACTIVE DIRECTORY.md",
+                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/ACTIVE DIRECTORY.md",
+                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/ACTIVE DIRECTORY.md",
+                "file": "Lateral Movement/ACTIVE DIRECTORY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/ACTIVE DIRECTORY.md"
+                "file": "Lateral Movement/ACTIVE DIRECTORY.md"
               }
             }
           }
@@ -148,16 +148,17 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Exploitation/WINDOWS.md",
-    "Information Gathering/ACTIVE DIRECTORY.md",
     "Information Gathering/WINDOWS.md",
+    "Information Gathering/ACTIVE DIRECTORY.md",
+    "Lateral Movement/ACTIVE DIRECTORY.md",
+    "Post Exploitation/WINDOWS.md",
+    "Exploitation/SHELLS.md",
+    "Exploitation/WINDOWS.md",
     "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Pasted image 20230604185023.png",
-    "Post Exploitation/WINDOWS.md",
     "Information Gathering/WEB.md",
     "Information Gathering/TYPES OF INFORMATION.md",
     "Exploitation/WEB.md",
-    "Exploitation/SHELLS.md",
     "Untitled.md",
     "Post Exploitation",
     "Exploitation",
