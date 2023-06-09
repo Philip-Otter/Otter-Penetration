@@ -46,6 +46,13 @@
 	A single component of the DN
 	AD does not allow two objects to share a RDN under the same parent container
 		Can have two of the same RDNs in a domain if they have different DNs
+
+# Read Only Domain Controller (RODC)
+***
+	Read only AD database
+	Doesn't cache AD account passwords
+		Only exceptions are RODC computer account and KRBTGT passwords
+	Includes a read only DNS server
 # sAMAccountName
 	User's logon name
 # Things To Understand
