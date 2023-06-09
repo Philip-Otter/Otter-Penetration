@@ -58,9 +58,19 @@
 ***
 	Default AD authentication program since Windows 2000
 	Is an open standard
+	Stateless Authentication
+		Depends on tickets being sent rather than passwords
 ## Mutual Authentication
 ***
 	Both the user and the server verify their identity
+
+## Kerberos Key Distribution Center (KDC)
+***
+	Found on a Domain Controller
+	Responsible for issuing tickets
+	Does not record previous interactions
+		Relies on valid TGT
+			Assumes that if there is a valid TGT then the user has verified their identity
 # Leaf Objects
 ***
 	Objects that are unable to house other objects
