@@ -8,6 +8,11 @@
 	The full path to an AD object
 	Must be unique
 
+# Domain Controller
+***
+## How to Locate
+***
+	Can look for an open port 88 because Kerberos uses that port
 # Flexible Single Master Operation Roles (FSMO Roles)
 ***
 ## Five Roles
@@ -71,6 +76,33 @@
 	Does not record previous interactions
 		Relies on valid TGT
 			Assumes that if there is a valid TGT then the user has verified their identity
+
+## Kerberos Process
+***
+1. User logs on
+	1. Password converted to NTLM hash
+		1. Used to encrypt the TGT
+2. KDC on the DC checks the authentication request
+	1. AS-REQ
+	2. Verifies user information
+		1. Creates a TGT that is sent to the user
+3. User presents TGT to DC
+	1. Requests a TGS ticket for a specific service
+		1. Ticket Granting Service ticket
+		2. TGS-REQ
+		3. If TGT is validated its data is copied over to create the TGS ticket
+4. TGS is encrypted with NTLM password hash of the service or computer account in whose context the service instance is running
+	1. Delivered in TGS-REP
+5. User presents TGS to the service 
+	1. If valid access is granted 
+	2. AP-REQ
+
+# LDAP
+***
+	Open source cross platform protocol
+	Used for authenticating various directory services
+	How systems in the network can speak in AD
+	Sent in cleartext by default
 # Leaf Objects
 ***
 	Objects that are unable to house other objects
