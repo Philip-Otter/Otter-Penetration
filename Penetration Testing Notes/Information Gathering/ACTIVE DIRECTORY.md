@@ -46,6 +46,18 @@
 	Assigned when a domain user or group  is created
 	Used by AD to identify objects internally
 
+# NTDS.dit file
+***
+	The heart of AD
+## Location
+***
+### Housed on the DC
+- C:\Windows\NTDS\
+## What's In It
+***
+### Stores AD info
+#### Password hashes for all users in the domain
+- If "store password with reversible encryption" is enabled NTDS.dit will also store them in clear text
 # Relative Distinguished Name (RDN)
 ***
 	A single component of the DN
@@ -74,6 +86,10 @@
 		This is good because it leaves us with a wide open path to begin enumerating the environment.
 
 
+# Tombstone
+***
+	Container that holds deleted objects
+	Default AD delete time is 180 days
 # User Principal Name (UPN)
 ***
 	An identifier for AD users
