@@ -314,3 +314,7 @@
 ***
 - Windows Event Logs
 - Event Logs have .evtx extensions
+
+## C:\Windows\NTDS\
+***
+[[Information Gathering/ACTIVE DIRECTORY#NTDS.dit file| NTDS.dit and AD]]

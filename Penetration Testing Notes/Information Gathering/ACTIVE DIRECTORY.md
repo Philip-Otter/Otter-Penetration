@@ -24,6 +24,14 @@
 - One per domain
 ### All five roles are assigned to the first DC in the forest
 ##### Each time a new domain is added only the RID master PDC emulator and infrastructure master roles are assigned
+# Foreign Security Principal (FSP)
+***
+	Object that represents a security principal that belongs to a trusted external forest
+	Created when an external object is added to a group in the current domain
+	Holds the SID of the foreign object
+## Location
+***
+	In a specific container called Foreign Security Principals
 # Global Catalog (GC)
 ***
 	A feature that can be enabled on a Domain Controller
@@ -46,6 +54,15 @@
 	Assigned when a domain user or group  is created
 	Used by AD to identify objects internally
 
+# Leaf Objects
+***
+	Objects that are unable to house other objects
+## Contact object
+***
+	Type of leaf object
+	Represents an external user
+	No SID only GUID
+		Not a security principal
 # NTDS.dit file
 ***
 	The heart of AD
@@ -86,6 +103,33 @@
 		This is good because it leaves us with a wide open path to begin enumerating the environment.
 
 
+# Trusts
+***
+	Use to establish forest-forest or domain-domain authentication
+		Creates a link between the two authentication systems
+## Trust Types
+***
+### Parent-Child
+	Domains within the same forest
+	Child has two way transitive trust with the parent domain
+### Cross-Link
+	Trust between child domains to speed up authentication
+### External 
+	Non-Transitivie trust
+	Between two seperate domains in two seperate forests
+		Not already joined by a trust
+	Uses SID filtering
+### Forest
+	Transitive trust between two forest root domains
+	Tree-root
+		Two way transitive trust
+		Between a forest root domain and a new tree root domain
+## Transitive VS Non-Transitive Trusts
+***
+### Transitive
+- Trust is expanded to objects the child-domain trusts
+### Non-Transitive
+- Only the child domain is trusted
 # Tombstone
 ***
 	Container that holds deleted objects
