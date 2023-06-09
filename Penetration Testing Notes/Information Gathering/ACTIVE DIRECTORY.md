@@ -54,6 +54,13 @@
 	Assigned when a domain user or group  is created
 	Used by AD to identify objects internally
 
+# Kerberos
+***
+	Default AD authentication program since Windows 2000
+	Is an open standard
+## Mutual Authentication
+***
+	Both the user and the server verify their identity
 # Leaf Objects
 ***
 	Objects that are unable to house other objects
