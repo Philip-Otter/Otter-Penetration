@@ -35,6 +35,11 @@
 	Performs Authentication
 	Performs Object Search
 		Allows object search to extend to all domains within a forest
+
+# Group Policy Object (GPO)
+***
+	Virtual collections of policy settings
+	Has a unique GUID
 # GUID (Global Unique Identifier)
 ***
 	A unique 128-bit value
