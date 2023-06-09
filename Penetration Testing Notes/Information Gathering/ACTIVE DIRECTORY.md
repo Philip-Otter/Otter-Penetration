@@ -112,6 +112,13 @@
 	Represents an external user
 	No SID only GUID
 		Not a security principal
+
+# Microsoft Remote Procedure Call (MSRPC)
+***
+	Windows systems use to access systems in AD
+## Four Key Interfaces 
+- LSARPC
+	- A set of RPC calls to the local security authority system (LSA)
 # NTDS.dit file
 ***
 	The heart of AD
