@@ -14,3 +14,14 @@
 		This is good news for us as the attacker
 	Essentially any member connected to the domain can read the whole database regardless of privlage level
 		This is good because it leaves us with a wide open path to begin enumerating the environment.
+
+# Distinguished Name (DN)
+***
+	The full path to an AD object
+	Must be unique
+
+# Relative Distinguished Name (RDN)
+***
+	A single component of the DN
+	AD does not allow two objects to share a RDN under the same parent container
+		Can have two of the same RDNs in a domain if they have different DNs
