@@ -26,7 +26,15 @@
 ##### Each time a new domain is added only the RID master PDC emulator and infrastructure master roles are assigned
 # Global Catalog (GC)
 ***
-## Domain controller that stores a copy of all objects  in an AD forest
+	A feature that can be enabled on a Domain Controller
+## Domain controller that stores a copy of all objects in an AD forest
+***
+	Keeps a full copy of objects in the current domain
+	Keeps a partial copy of objects that belong to other domains
+	Standard DCs keep a full copy of **only** what is in their own domain
+	Performs Authentication
+	Performs Object Search
+		Allows object search to extend to all domains within a forest
 # GUID (Global Unique Identifier)
 ***
 	A unique 128-bit value
