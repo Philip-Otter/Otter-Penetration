@@ -53,8 +53,14 @@
 	Doesn't cache AD account passwords
 		Only exceptions are RODC computer account and KRBTGT passwords
 	Includes a read only DNS server
+	
 # sAMAccountName
 	User's logon name
+
+# Service Principal Name
+***
+	Uniquely identifies a service
+	Used by Kerberos to associate an instance of a service with a logon object
 # Things To Understand
 ***
 	AD is designed to be backwards compatible so many features are not secure by default
