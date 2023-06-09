@@ -129,6 +129,12 @@
 - SAMR
 	- Remote SAM
 		- Security Accounts Manager
+		- Pentesters use to perform recon about the domain
+		- By default all users can make SAM queries
+- DRSUAPI
+	- Microsoft API that implements the DRS remote protocol
+		- Directory Replication Service (DRS)
+			- Attackers can use this to create a copy of the NTDS.dit
 # NTDS.dit file
 ***
 	The heart of AD
