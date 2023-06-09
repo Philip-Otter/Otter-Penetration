@@ -119,6 +119,16 @@
 ## Four Key Interfaces 
 - LSARPC
 	- A set of RPC calls to the local security authority system (LSA)
+	- LSA
+		- Provides interactive authentication services
+		- Manages the local security policy on a computer
+		- Controls the audit policy
+- Netlogon
+	- Windows Process to authenticate users and other services in the domain
+	- Continually runs in the background
+- SAMR
+	- Remote SAM
+		- Security Accounts Manager
 # NTDS.dit file
 ***
 	The heart of AD
