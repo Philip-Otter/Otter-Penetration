@@ -130,6 +130,14 @@
 - Trust is expanded to objects the child-domain trusts
 ### Non-Transitive
 - Only the child domain is trusted
+
+## Bidirectional VS One-Way Trusts
+***
+- Bidirectional
+	- Users from both domains can access resources in a trusting domain
+- One-Way
+	- Only users in a trusted domain can access resources in a trusting domain
+	- Direction of trust is opposite to the direction of access
 # Tombstone
 ***
 	Container that holds deleted objects
