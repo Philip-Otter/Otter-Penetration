@@ -3,11 +3,43 @@
 	This allows for SSO within the environment.
 	Uses client based access control
 
+# Distinguished Name (DN)
+***
+	The full path to an AD object
+	Must be unique
+
+# Flexible Single Master Operation Roles (FSMO Roles)
+***
+## Five Roles
+***
+### Schema Master
+- One per forest
+### Domain Naming Master
+- One per forest
+### Relative ID Master
+- One per domain
+### Primary Domain Controller Emulator
+- One per domain
+### Infrastructure Master
+- One per domain
+### All five roles are assigned to the first DC in the forest
+##### Each time a new domain is added only the RID master PDC emulator and infrastructure master roles are assigned
+# Global Catalog (GC)
+***
+## Domain controller that stores a copy of all objects  in an AD forest
 # GUID (Global Unique Identifier)
 ***
 	A unique 128-bit value
 	Assigned when a domain user or group  is created
 	Used by AD to identify objects internally
+
+# Relative Distinguished Name (RDN)
+***
+	A single component of the DN
+	AD does not allow two objects to share a RDN under the same parent container
+		Can have two of the same RDNs in a domain if they have different DNs
+# sAMAccountName
+	User's logon name
 # Things To Understand
 ***
 	AD is designed to be backwards compatible so many features are not secure by default
@@ -15,13 +47,10 @@
 	Essentially any member connected to the domain can read the whole database regardless of privlage level
 		This is good because it leaves us with a wide open path to begin enumerating the environment.
 
-# Distinguished Name (DN)
-***
-	The full path to an AD object
-	Must be unique
 
-# Relative Distinguished Name (RDN)
+# User Principal Name (UPN)
 ***
-	A single component of the DN
-	AD does not allow two objects to share a RDN under the same parent container
-		Can have two of the same RDNs in a domain if they have different DNs
+	An identifier for AD users
+		uses account name + the domain name
+			philip@2xdropout.xyz
+
