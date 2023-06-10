@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exploitation/WEB.md",
+                "file": "Exploitation/METASPLOIT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploitation/WEB.md",
+                "file": "Exploitation/METASPLOIT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exploitation/WEB.md",
+                "file": "Exploitation/METASPLOIT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploitation/WEB.md"
+                "file": "Exploitation/METASPLOIT.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Exploitation/LOGIN BRUTE-FORCING.md",
+    "Exploitation/METASPLOIT.md",
+    "Exploitation/SHELLS.md",
+    "Exploitation/WEB.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
     "Information Gathering/WINDOWS.md",
     "Lateral Movement/ACTIVE DIRECTORY.md",
-    "Exploitation/SHELLS.md",
-    "Exploitation/WEB.md",
     "Exploitation/WINDOWS.md",
     "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Information Gathering/TYPES OF INFORMATION.md",
