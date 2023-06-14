@@ -36,11 +36,11 @@
 	- Set the data field
 - -X
 	- Select http method
+- -mr
+	- Match regular expression
 ### Assigning keywords
 - ==Syntax:==  ffuf -w {wordlist}:{keyword} -u {url}
 	- To be able to use recursion the url has to end with the FUZZ keyword
-### V
-
 ## Vhost Fuzzing
 ***
 ### Vhosts vs subdomains
