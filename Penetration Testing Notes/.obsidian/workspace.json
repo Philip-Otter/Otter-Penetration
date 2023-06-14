@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Scripts/BASH.md",
+                "file": "Quick Scripts/Python3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Scripts/BASH.md",
+                "file": "Quick Scripts/Python3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Scripts/BASH.md",
+                "file": "Quick Scripts/Python3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Scripts/BASH.md"
+                "file": "Quick Scripts/Python3.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Quick Scripts/BASH.md",
+    "Quick Scripts/Python3.md",
     "Information Gathering/Hashes.md",
     "Information Gathering/WEB.md",
-    "Quick Scripts/BASH.md",
     "Quick Scripts",
     "Information Gathering/WINDOWS.md",
     "Information Gathering/TYPES OF INFORMATION.md",
