@@ -15,10 +15,40 @@
 	- Word list
 - -t
 	- Sets the number of threads
-- 
+- -fc
+	- filter code
+- -mc
+	- match code
+- -c
+	- colorize
+- -ic
+	- Remove copyright comments from word list
+- -recursion
+	- Set recursive fuzzing
+- -recursion-depth
+	- Set the recursion depth
+- -e
+	- Specify extension(s)
+		- With the period!
+- -fs
+	- filter size
+- -d 
+	- Set the data field
+- -X
+	- Select http method
 ### Assigning keywords
 - ==Syntax:==  ffuf -w {wordlist}:{keyword} -u {url}
 	- To be able to use recursion the url has to end with the FUZZ keyword
+### V
+
+## Vhost Fuzzing
+***
+### Vhosts vs subdomains
+- Vhosts
+	- Served on the same server
+	- Has the same ip address as the main domain
+- subdomains
+	- Ip address differs from the main domain
 # Headers
 ***
 ## Security Headers

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/WEB.md",
+                "file": "Quick Scripts/BASH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/WEB.md",
+                "file": "Quick Scripts/BASH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/WEB.md",
+                "file": "Quick Scripts/BASH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/WEB.md"
+                "file": "Quick Scripts/BASH.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Information Gathering/WEB.md",
+    "Quick Scripts/BASH.md",
+    "Quick Scripts",
+    "Information Gathering/WINDOWS.md",
+    "Information Gathering/TYPES OF INFORMATION.md",
     "Exploitation/LOGIN BRUTE-FORCING.md",
     "Information Gathering/SMB.md",
     "Information Gathering/NMAP.md",
@@ -156,11 +161,8 @@
     "Exploitation/METASPLOIT.md",
     "Exploitation/WEB.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
-    "Information Gathering/WINDOWS.md",
     "Lateral Movement/ACTIVE DIRECTORY.md",
     "Exploitation/WINDOWS.md",
-    "Information Gathering/TYPES OF INFORMATION.md",
-    "Information Gathering/WEB.md",
     "Post Exploitation/WINDOWS.md",
     "Pasted image 20230604185023.png",
     "Untitled.md",
