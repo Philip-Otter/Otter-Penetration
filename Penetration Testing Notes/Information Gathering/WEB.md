@@ -4,6 +4,21 @@
 ***
 	A nice list of different types of stacks.
 
+# Fuzzing
+***
+## ffuf
+***
+### Useful flags
+- -u
+	- URL
+- -w 
+	- Word list
+- -t
+	- Sets the number of threads
+- 
+### Assigning keywords
+- ==Syntax:==  ffuf -w {wordlist}:{keyword} -u {url}
+	- To be able to use recursion the url has to end with the FUZZ keyword
 # Headers
 ***
 ## Security Headers
@@ -99,3 +114,4 @@
 ### HTTPS Flow
 #### ![[Pasted image 20230604185023.png]]
 	From HTB Academy
+
