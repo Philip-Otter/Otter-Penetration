@@ -3,7 +3,7 @@
 ## HTML Reports
 ***
 	Convert xml output to html file
-- ==Syntax:==  xlstproc {outScan}.xml -o {outHTML}.html
+- ==Syntax:==  xsltproc {outScan}.xml -o {outHTML}.html
 # Useful Flags
 ***
 ## -sV
