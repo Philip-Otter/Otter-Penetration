@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exploitation/LINUX.md",
+                "file": "Quick Scripts/PYTHON 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploitation/LINUX.md",
+                "file": "Quick Scripts/PYTHON 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exploitation/LINUX.md",
+                "file": "Quick Scripts/PYTHON 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploitation/LINUX.md"
+                "file": "Quick Scripts/PYTHON 3.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Quick Scripts/BASH.md",
     "Exploitation/LINUX.md",
+    "Quick Scripts/BASH.md",
     "Quick Scripts/PYTHON 3.md",
     "Information Gathering/WEB.md",
     "Exploitation/LOGIN BRUTE-FORCING.md",

@@ -10,3 +10,4 @@ Python3
 ```
 # Upgrading A Reverse Shell
 ***
+## ==Command:==   `python -c 'import pty; pty.spawn("/bin/bash")'`
