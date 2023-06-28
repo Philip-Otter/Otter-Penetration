@@ -1,5 +1,14 @@
+# enum4linux-ng
+***
+	Automates a large amount of enumeration for us
+	Based on an older tool called enum4linux
+- ==Syntax:==  ./enum4linux-ng.py {targetIP} -A
 # Hostname Enumeration
 ***
+## crackmapexec
+***
+### ==syntax:==  crackmapexec smb {targetIP} --shares -u {username} -p {password}
+- -u and -p can be set as "" (blank) for anonymous usage
 ## nmblookup
 ***
 - ==Syntax:==  nmblookup -A {ip}
@@ -44,6 +53,8 @@
 	- ==Syntax:==  queryuser {RID}
 	- We can brute force RIDs
 		- ==Command:==  `for i in $(seq 500 1100);do rpcclient -N -U "" {targetIP} -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done`
+		- samrdump.py
+			- ==Syntax:==  samrdump.py {targetIP}
 		
 
 
