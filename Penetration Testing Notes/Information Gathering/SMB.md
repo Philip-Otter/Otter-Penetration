@@ -15,6 +15,11 @@
 		- Anonymous SMB access 
 - -L
 	- Lists the server's shares.
+
+## Executing Local Commands
+***
+- ==Syntax:==  !{command}
+	- Doesn't interrupt the connection
 # Hostname Enumeration
 ***
 ## nmblookup
