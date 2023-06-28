@@ -42,3 +42,8 @@
 ***
 - ==Syntax:==  !{command}
 	- Doesn't interrupt the connection
+
+# smbstatus
+***
+	Command that can provide us with SMB information
+		Ran on the machine that is hosting the SMB service 
