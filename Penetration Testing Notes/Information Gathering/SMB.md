@@ -42,6 +42,11 @@
 	- enumerates all domain users
 - queryuser
 	- ==Syntax:==  queryuser {RID}
+	- We can brute force RIDs
+		- ==Command:==  `for i in $(seq 500 1100);do rpcclient -N -U "" {targetIP} -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done`
+		
+
+
 # smbmap
 ***
 ## Useful commands
