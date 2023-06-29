@@ -46,6 +46,13 @@
 ## nmap
 ***
 - ==Syntax:==  nmap -sV --script nfs* {targetIP}
+
+# Mounting Shares
+***
+```
+mkdir {NFSMountDirectory}
+sudo mount -t nfs {targetIP} ./{NFSMountDirectory}/ -o nolock
+```
 # Versions
 ***
 - NFSv2
