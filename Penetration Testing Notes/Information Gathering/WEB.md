@@ -6,6 +6,13 @@
 
 # DNS
 ***
+## Encryption
+***
+	Mainly unencrypted
+### DNS over TLS (DoT)
+### DNS over HTTPS (DoH)
+### NSCrypt
+	Encrypts traffic between the computer and the name server
 ## Types of DNS Servers
 ***
 - DNS Root Server
@@ -22,6 +29,13 @@
 - Non-Authoritative Nameserver
 	- collects information on a specific DNS zone
 		- Done through iterative DNS querying
+- Caching DNS Server
+	- Cache information from other name servers for a specific period of time.
+		- This period of time is determined by the authoritative Nameserver
+- Forwarding Server
+	- Forwards DNS queries to another DNS server
+- Resolver
+	- Perform name resolution locally in the computer or router
 # Fuzzing
 ***
 ## ffuf
