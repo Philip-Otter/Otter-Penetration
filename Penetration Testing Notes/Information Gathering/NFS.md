@@ -30,6 +30,7 @@
 		- root_squash
 			- Assigns all permissions to files of root UID/GID 0 to the UID/GID of anonymous
 				- Prevents root from accessing files on an NFS mount
+				- If set we can not edit any root owned files even as root
 		- nohide
 			- if another file system was mounted below an exported directory this directory is exported by its own exports entry
 		- no_root_squash
@@ -47,11 +48,18 @@
 ***
 - ==Syntax:==  nmap -sV --script nfs* {targetIP}
 
-# Mounting Shares
+# Mounting And Unmounting Shares
+***
+## Mounting
 ***
 ```
 mkdir {NFSMountDirectory}
 sudo mount -t nfs {targetIP} ./{NFSMountDirectory}/ -o nolock
+```
+## Unmounting
+***
+```
+sudo unmount ./{NFSMount}
 ```
 # Versions
 ***
