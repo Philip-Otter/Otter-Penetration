@@ -4,6 +4,17 @@
 ***
 	A nice list of different types of stacks.
 
+# DNS
+***
+## Types of DNS Servers
+***
+- DNS Root Server
+	- Responsible for tor TLDs (Top Level Domains)
+	- Only requested if the name server does not respond
+	- Links domain and IP address 
+	- ICANN coordinates the work of the root name servers
+		- 13 around the globe
+
 # Fuzzing
 ***
 ## ffuf

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/NFS.md",
+                "file": "Information Gathering/WEB.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/NFS.md",
+                "file": "Information Gathering/WEB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/NFS.md",
+                "file": "Information Gathering/WEB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/NFS.md"
+                "file": "Information Gathering/WEB.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Information Gathering/SMB.md",
     "Information Gathering/NFS.md",
+    "Information Gathering/SMB.md",
     "Exploitation/WINDOWS.md",
     "Information Gathering/WINDOWS.md",
     "Exploitation/HASHES.md",
