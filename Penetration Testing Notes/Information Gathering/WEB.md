@@ -13,6 +13,26 @@
 ### DNS over HTTPS (DoH)
 ### NSCrypt
 	Encrypts traffic between the computer and the name server
+
+## Types of DNS Records
+***
+- A
+	- Returns an IPv4 address of the requested domain as a result
+- AAAA
+	- Returns an IPv6 address of the requested domain as a result
+- MX
+	- Returns the responsible mail server as a result
+- NS 
+	- Returns the DNS servers of the domain
+- TXT
+	- Can contain a variety of information
+- CNAME
+	- Alias 
+- PTR 
+	- Revers lookup
+		- Converts IP addresses into domain names
+- SOA
+	- Provides information about the corresponding DNS zone and email address of the administrative contact
 ## Types of DNS Servers
 ***
 - DNS Root Server
