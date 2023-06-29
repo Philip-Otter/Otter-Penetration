@@ -5,6 +5,13 @@
 		Uses External Data Representation
 	Has no mechanism for authentication or authorization.
 		Shifted to the RPC protocol's options
+# Configuration
+***
+## Config File Location
+***
+- etc/exports 
+	- Contains a table of physical filesystems on an NFS server accessible by the clients
+		- NFS Exports Table
 # Versions
 ***
 - NFSv2
@@ -24,3 +31,4 @@
 	- Applies state based operations
 	- Version 4.1
 		- Only requires a single port to run.
+
