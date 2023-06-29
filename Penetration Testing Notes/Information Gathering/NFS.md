@@ -12,6 +12,40 @@
 - etc/exports 
 	- Contains a table of physical filesystems on an NFS server accessible by the clients
 		- NFS Exports Table
+	- Options
+		- rw
+			- Read and write permissions
+		- ro
+			- Read only permissions
+		- sync
+			- Synchronous data transfer
+		- async
+			- asynchronous data transfer
+		- secure
+			- ports above 1024 will not be used
+		- insecure
+			- ports above 1024 will be used
+		- no_subtree_check
+			- Disables the checking of subdirectory trees
+		- root_squash
+			- Assigns all permissions to files of root UID/GID 0 to the UID/GID of anonymous
+				- Prevents root from accessing files on an NFS mount
+		- nohide
+			- if another file system was mounted below an exported directory this directory is exported by its own exports entry
+		- no_root_squash
+			- All files created by root are kept with the UID/GID 0
+
+# Finding NFS Shares
+***
+- showmount -e {targetIP}
+# Footprinting
+***
+## Ports
+***
+	111 and 2049
+## nmap
+***
+- ==Syntax:==  nmap -sV --script nfs* {targetIP}
 # Versions
 ***
 - NFSv2
