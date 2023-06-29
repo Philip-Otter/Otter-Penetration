@@ -14,7 +14,14 @@
 	- Links domain and IP address 
 	- ICANN coordinates the work of the root name servers
 		- 13 around the globe
-
+- Authoritative Namesever
+	- Holds authority for a particular zone
+	- Only answers queries from their area of responsibility 
+	- Their information is binding
+	- If a question cant be answered by this server it goes on to the root server
+- Non-Authoritative Nameserver
+	- collects information on a specific DNS zone
+		- Done through iterative DNS querying
 # Fuzzing
 ***
 ## ffuf
