@@ -59,7 +59,7 @@ sudo mount -t nfs {targetIP} ./{NFSMountDirectory}/ -o nolock
 ## Unmounting
 ***
 ```
-sudo unmount ./{NFSMount}
+sudo umount ./{NFSMount}
 ```
 # Versions
 ***
