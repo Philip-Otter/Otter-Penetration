@@ -1,5 +1,5 @@
 ---
-tags: SQL, Passwords
+tags: SQL, Passwords, MySQL
 ---
 # Connecting
 ***
