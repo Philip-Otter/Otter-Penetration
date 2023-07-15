@@ -11,12 +11,8 @@
             "id": "a395877ece08c143",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Information Gathering/SNMP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "winrm",
+                "query": "tag:#File",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/SNMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/SNMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Information Gathering/SNMP.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +141,9 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
-    "Information Gathering/FINGERPRINTING.md",
+    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Information Gathering/SNMP.md",
+    "Information Gathering/FINGERPRINTING.md",
     "Pasted image 20230604185023.png",
     "Exploitation/SQL INJECTIONS.md",
     "Exploitation/SHELLS.md",
@@ -159,7 +153,6 @@
     "Information Gathering/WINDOWS.md",
     "Post Exploitation/WINDOWS.md",
     "Post Exploitation/PRIVILEGE ESCALATION.md",
-    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
     "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",

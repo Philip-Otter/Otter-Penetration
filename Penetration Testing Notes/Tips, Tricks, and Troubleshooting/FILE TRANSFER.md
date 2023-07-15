@@ -1,5 +1,5 @@
 ---
-tags: File Transfer, Encryption, Windows, Linux, Firewall_Evasion, RDP, SCP, Netcat, Bash, PowerShell, Hashing, MD5, Firewall
+tags: File_Transfer, Encryption, Windows, Linux, Firewall_Evasion, RDP, SCP, Netcat, Bash, PowerShell, Hashing, MD5, Firewall
 ---
 # Tricks
 ***
