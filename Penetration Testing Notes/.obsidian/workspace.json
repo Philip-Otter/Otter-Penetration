@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exploitation/SQL INJECTIONS.md",
+                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploitation/SQL INJECTIONS.md",
+                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exploitation/SQL INJECTIONS.md",
+                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploitation/SQL INJECTIONS.md"
+                "file": "Post Exploitation/PRIVILEGE ESCALATION.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Post Exploitation/WINDOWS.md",
+    "Post Exploitation/PRIVILEGE ESCALATION.md",
+    "Exploitation/SQL INJECTIONS.md",
     "Information Gathering/WEB.md",
     "Information Gathering/NFS.md",
     "Information Gathering/SMB.md",
@@ -160,10 +163,8 @@
     "Exploitation/LOGIN BRUTE-FORCING.md",
     "Information Gathering/FINGERPRINTING.md",
     "Information Gathering/NMAP.md",
-    "Post Exploitation/WINDOWS.md",
     "Information Gathering/LINUX.md",
     "Exploitation/SHELLS.md",
-    "Exploitation/SQL INJECTIONS.md",
     "Exploitation/PROXYCHAINS.md",
     "Exploitation/WIFI.md",
     "Information Gathering/HASHES.md",
@@ -175,7 +176,6 @@
     "Information Gathering/ACTIVE DIRECTORY.md",
     "Lateral Movement/ACTIVE DIRECTORY.md",
     "Pasted image 20230604185023.png",
-    "Untitled.md",
     "Post Exploitation",
     "Exploitation",
     "Lateral Movement",
