@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md"
+                "file": "Tips, Tricks, and Troubleshooting/SSH.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
     "Post Exploitation/PRIVILEGE ESCALATION.md",
-    "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
+    "Tips, Tricks, and Troubleshooting/SSH.md",
     "Tips, Tricks, and Troubleshooting",
     "Post Exploitation/WINDOWS.md",
     "Exploitation/SQL INJECTIONS.md",
