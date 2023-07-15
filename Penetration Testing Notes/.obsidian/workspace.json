@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/MSSQL.md",
+                "file": "Information Gathering/ORACLE.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Key",
+                "query": "tag:#Automated_Tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/MSSQL.md",
+                "file": "Information Gathering/ORACLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/MSSQL.md",
+                "file": "Information Gathering/ORACLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/MSSQL.md"
+                "file": "Information Gathering/ORACLE.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
+    "Exploitation/ORACLE.md",
+    "Information Gathering/ORACLE.md",
     "Information Gathering/MYSQL.md",
     "Information Gathering/MSSQL.md",
     "Exploitation/SQL INJECTIONS.md",
@@ -173,8 +175,6 @@
     "Exploitation/LOGIN BRUTE-FORCING.md",
     "Exploitation/LINUX.md",
     "Exploitation/HASHES.md",
-    "Information Gathering/WEB.md",
-    "Information Gathering/TYPES OF INFORMATION.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",

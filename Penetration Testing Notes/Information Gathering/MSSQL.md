@@ -1,5 +1,5 @@
 ---
-Tags: SQL, MsSQL, Nmap, MetaSploit, Python, Python_3
+Tags: SQL, MsSQL, Nmap, MetaSploit, Python, Python_3, Automated_Tools
 ---
 # Connecting
 ***
