@@ -1,5 +1,5 @@
 ---
-tags: Linux, Scripting, BASH, Hashing, Keys, Hex
+tags: Linux, BASH, Hashing, Keys, Hex
 ---
 # Tricks
 ***
