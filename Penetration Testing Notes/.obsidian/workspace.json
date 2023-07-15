@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/RDP.md",
+                "file": "Information Gathering/WinRM.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/RDP.md",
+                "file": "Information Gathering/WinRM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/RDP.md",
+                "file": "Information Gathering/WinRM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/RDP.md"
+                "file": "Information Gathering/WinRM.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
-    "Information Gathering/DNS.md",
     "Information Gathering/RDP.md",
+    "Information Gathering/WinRM.md",
+    "Information Gathering/DNS.md",
     "Information Gathering/SSH.md",
     "Information Gathering/IPMI.md",
     "Exploitation/IPMI.md",
@@ -174,7 +175,6 @@
     "Post Exploitation/WINDOWS.md",
     "Post Exploitation/PRIVILEGE ESCALATION.md",
     "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
-    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
