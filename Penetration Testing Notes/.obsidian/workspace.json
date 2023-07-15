@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/SNMP.md",
+                "file": "Information Gathering/MYSQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/SNMP.md",
+                "file": "Information Gathering/MYSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/SNMP.md",
+                "file": "Information Gathering/MYSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/SNMP.md"
+                "file": "Information Gathering/MYSQL.md"
               }
             }
           }
@@ -149,9 +148,10 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
+    "Information Gathering/MYSQL.md",
+    "Information Gathering/SNMP.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
     "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
-    "Information Gathering/SNMP.md",
     "Information Gathering/FINGERPRINTING.md",
     "Pasted image 20230604185023.png",
     "Exploitation/SQL INJECTIONS.md",
@@ -175,7 +175,6 @@
     "Information Gathering/WEB.md",
     "Information Gathering/TYPES OF INFORMATION.md",
     "Information Gathering/SMB.md",
-    "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
