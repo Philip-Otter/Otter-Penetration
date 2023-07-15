@@ -1,8 +1,11 @@
 ---
-Tags: DNS, Linux, Networking, BIND, Keys, BASH, Automated_Tools, Brute_Forcing
+Tags: DNS, Linux, Networking, BIND, Keys, BASH, Automated_Tools, Brute_Forcing, Nmap, Cloud
 ---
 # Footprinting
 ***
+## Nmap
+***
+### Use "-sC" while scanning the DNS server
 ## ns query
 ***
 ### `dig ns {target} @ {DNSServer}`
@@ -23,6 +26,22 @@ Tags: DNS, Linux, Networking, BIND, Keys, BASH, Automated_Tools, Brute_Forcing
 ***
 ### `dig CH TXT version.bind {targetIP}`
 - Only works if the entry actually exists
+
+# Information Gathering Sites
+***
+## Grayhat Warfare
+***
+	We can use this to find public bucket information
+### https://buckets.grayhatwarfare.com/
+## DNS Dumpster
+***
+#### https://www.nmmapper.com/
+##### Documentation
+***
+###### https://dnsdumpster.readthedocs.io/en/latest/
+##### Source Code
+***
+###### https://github.com/wangoloj/dnsdumpster
 # Local Configuration
 ***
 ## name.conf.local
@@ -39,6 +58,16 @@ Tags: DNS, Linux, Networking, BIND, Keys, BASH, Automated_Tools, Brute_Forcing
 			Contains precisely one SOA record
 				This is usually at the start of the file
 			Contains at least one NS record
+
+# Records
+***
+
+| Record | Information |
+|---------|---------------|
+| A | Subdomain information|
+| MX | Mail server information |
+| NS | Name server information |
+|TXT | Text records. These can often contain verification keys for third-party providers, SPF, DMARC, and DKIM information |
 
 # Zone Transfer
 ***
