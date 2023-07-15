@@ -1,3 +1,6 @@
+---
+tags: Web, Networking, Encryption, Automated_Tools, DNS, cURL, 
+---
 # Back End Server "Stacks"
 ***
 ## https://en.wikipedia.org/wiki/Solution_stack

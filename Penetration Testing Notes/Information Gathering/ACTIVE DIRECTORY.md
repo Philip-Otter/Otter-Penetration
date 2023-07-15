@@ -1,3 +1,6 @@
+---
+tags: Active_Directory, Windows, Kerberos, GUID, LDAP, MSRPC, SAM, NTDS.dat, Hashing, User_Privileges, Passwords
+---
 # ADFS (Active Directory Federation Service)
 ***
 	This allows for SSO within the environment.

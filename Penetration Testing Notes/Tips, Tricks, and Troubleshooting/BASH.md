@@ -1,3 +1,6 @@
+---
+tags: Linux, Scripting, BASH, Hashing, Keys, Hex
+---
 # Tricks
 ***
 ## Quick Lists

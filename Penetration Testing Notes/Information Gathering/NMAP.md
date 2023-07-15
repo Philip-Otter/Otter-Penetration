@@ -1,3 +1,6 @@
+---
+tags: Nmap, Automated_Tools
+---
 # Reporting
 ***
 ## HTML Reports

@@ -1,3 +1,6 @@
+---
+tags: Keys,Linux_File_Permissions, SSH, Linux
+---
 # Tricks
 ***
 ## Using A Key File

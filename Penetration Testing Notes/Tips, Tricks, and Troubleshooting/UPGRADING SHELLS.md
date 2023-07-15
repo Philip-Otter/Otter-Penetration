@@ -1,3 +1,6 @@
+---
+tags: Linux, BASH, Python, Python_3, Shells
+---
 # Linux
 ***
 ## BASH

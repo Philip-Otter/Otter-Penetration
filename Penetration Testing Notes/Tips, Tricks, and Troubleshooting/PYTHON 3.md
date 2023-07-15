@@ -1,3 +1,6 @@
+---
+tags: Python, Python_3, Hashing, xor
+---
 # Tricks
 ## Hashing
 ***

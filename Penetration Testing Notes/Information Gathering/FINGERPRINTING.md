@@ -1,3 +1,6 @@
+---
+tags: Netcat, cURL, Automated_Tools, Banner_Grabbing, Finger_Printing
+---
 # Banner Grabbing
 ***
 ## nc or netcat

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
+                "file": "Exploitation/WINDOWS.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
+                "file": "Exploitation/WINDOWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
+                "file": "Exploitation/WINDOWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md"
+                "file": "Exploitation/WINDOWS.md"
               }
             }
           }
@@ -148,34 +148,34 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Tips, Tricks, and Troubleshooting/BASH.md",
-    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
-    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
-    "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
-    "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
-    "Tips, Tricks, and Troubleshooting/SSH.md",
-    "Post Exploitation/PRIVILEGE ESCALATION.md",
-    "Tips, Tricks, and Troubleshooting",
-    "Post Exploitation/WINDOWS.md",
-    "Exploitation/SQL INJECTIONS.md",
-    "Information Gathering/WEB.md",
-    "Information Gathering/NFS.md",
-    "Information Gathering/SMB.md",
+    "Exploitation/WIFI.md",
     "Exploitation/WINDOWS.md",
-    "Information Gathering/WINDOWS.md",
-    "Exploitation/HASHES.md",
-    "Exploitation/LINUX.md",
+    "Exploitation/WEB.md",
+    "Exploitation/SQL INJECTIONS.md",
+    "Exploitation/SHELLS.md",
+    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
+    "Exploitation/PROXYCHAINS.md",
     "Exploitation/LOGIN BRUTE-FORCING.md",
-    "Information Gathering/FINGERPRINTING.md",
+    "Exploitation/METASPLOIT.md",
+    "Exploitation/LINUX.md",
+    "Exploitation/HASHES.md",
+    "Information Gathering/WINDOWS.md",
+    "Information Gathering/WEB.md",
+    "Information Gathering/TYPES OF INFORMATION.md",
+    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
+    "Information Gathering/SMB.md",
+    "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
+    "Information Gathering/NFS.md",
     "Information Gathering/NMAP.md",
     "Information Gathering/LINUX.md",
-    "Exploitation/SHELLS.md",
-    "Exploitation/PROXYCHAINS.md",
-    "Exploitation/WIFI.md",
-    "Information Gathering/HASHES.md",
+    "Information Gathering/Hashes.md",
+    "Information Gathering/ACTIVE DIRECTORY.md",
+    "Information Gathering/FINGERPRINTING.md",
+    "Tips, Tricks, and Troubleshooting/SSH.md",
+    "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
+    "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
+    "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
-    "Information Gathering/TYPES OF INFORMATION.md",
-    "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Pasted image 20230604185023.png",
     "Post Exploitation",
     "Exploitation",

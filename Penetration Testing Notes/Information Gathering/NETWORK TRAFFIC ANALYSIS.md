@@ -1,3 +1,7 @@
+---
+tags: Networking, Web, SMB, Encryption, WireShark, Automated_Tools, Keys, Linux, Windows
+---
+
 # FTP
 ***
 	Insecure 

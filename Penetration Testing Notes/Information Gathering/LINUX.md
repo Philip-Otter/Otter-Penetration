@@ -1,3 +1,6 @@
+---
+tag: Linux, SQL, Passwords
+---
 # SQL
 ***
 ## mysql

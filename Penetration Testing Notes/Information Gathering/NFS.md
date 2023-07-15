@@ -1,4 +1,7 @@
-	Network File System
+---
+tags: NFS, Linux, Unix, Footprinting
+---
+ Network File System
 	Used between Linux and Unix systems
 	Based on the Open Network Computing Remote Procedure Call protocol
 		Exposed on UDP and TCP ports 111
