@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH.md",
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/SSH.md"
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
+    "Quick Scripts/BASH.md",
+    "Quick Scripts/Python 3.md",
+    "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
     "Tips, Tricks, and Troubleshooting/SSH.md",
     "Post Exploitation/PRIVILEGE ESCALATION.md",
     "Tips, Tricks, and Troubleshooting",
@@ -161,7 +164,6 @@
     "Exploitation/HASHES.md",
     "Quick Scripts/PYTHON 3.md",
     "Exploitation/LINUX.md",
-    "Quick Scripts/BASH.md",
     "Exploitation/LOGIN BRUTE-FORCING.md",
     "Information Gathering/FINGERPRINTING.md",
     "Information Gathering/NMAP.md",
@@ -174,8 +176,6 @@
     "Information Gathering/TYPES OF INFORMATION.md",
     "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Exploitation/METASPLOIT.md",
-    "Exploitation/WEB.md",
-    "Information Gathering/ACTIVE DIRECTORY.md",
     "Pasted image 20230604185023.png",
     "Post Exploitation",
     "Exploitation",
