@@ -1,3 +1,8 @@
+# Tricks
+***
+## Using A Key File
+***
+- -i {keyFile}
 # Troubleshooting
 ***
 ## Permissions
