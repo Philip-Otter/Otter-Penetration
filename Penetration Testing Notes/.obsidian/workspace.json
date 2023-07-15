@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#File",
+                "query": "ntlm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,6 +141,7 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
+    "Information Gathering/ACTIVE DIRECTORY.md",
     "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Information Gathering/SNMP.md",
     "Information Gathering/FINGERPRINTING.md",
@@ -157,7 +158,6 @@
     "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
     "Tips, Tricks, and Troubleshooting/BASH.md",
-    "Information Gathering/ACTIVE DIRECTORY.md",
     "TAGS LIST.md",
     "Exploitation/WEB.md",
     "Exploitation/METASPLOIT.md",

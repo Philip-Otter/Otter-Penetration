@@ -1,5 +1,5 @@
 ---
-tags: Active_Directory, Windows, Kerberos, GUID, LDAP, MSRPC, SAM, NTDS.dat, Hashing, User_Privileges, Passwords
+tags: Active_Directory, Windows, Kerberos, GUID, LDAP, MSRPC, SAM, NTDS.dat, Hashing, User_Privileges, Passwords, NTLM
 ---
 # ADFS (Active Directory Federation Service)
 ***
