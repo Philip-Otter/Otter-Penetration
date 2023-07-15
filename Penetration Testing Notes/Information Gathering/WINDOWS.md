@@ -1,5 +1,5 @@
 ---
-tags: Windows, Active_Directory, User_Privileges, Automated_Tools, Services, PowerShell, CMD, Schedualed_Tasks, Kerberos, LDAP, SMB, RDP, NTDS.dat, Passwords, Hashing, Winrm, Keys
+tags: Windows, Active_Directory, User_Privileges, Automated_Tools, Services, PowerShell, CMD, Schedualed_Tasks, Kerberos, LDAP, SMB, RDP, NTDS.dat, Passwords, Hashing, WinRM, Keys
 ---
 # Commands To Gather Data
 ***
