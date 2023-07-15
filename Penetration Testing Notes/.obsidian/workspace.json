@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c53a97a7033aa03a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploitation/WINDOWS.md",
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exploitation/WINDOWS.md",
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploitation/WINDOWS.md"
+                "file": "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md"
               }
             }
           }
@@ -146,34 +159,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08fdc42b90ab6260",
+  "active": "c53a97a7033aa03a",
   "lastOpenFiles": [
-    "Exploitation/WIFI.md",
+    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
+    "Tips, Tricks, and Troubleshooting/BASH.md",
+    "Information Gathering/ACTIVE DIRECTORY.md",
+    "TAGS LIST.md",
     "Exploitation/WINDOWS.md",
+    "Exploitation/WIFI.md",
     "Exploitation/WEB.md",
     "Exploitation/SQL INJECTIONS.md",
     "Exploitation/SHELLS.md",
-    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Exploitation/PROXYCHAINS.md",
-    "Exploitation/LOGIN BRUTE-FORCING.md",
     "Exploitation/METASPLOIT.md",
+    "Exploitation/LOGIN BRUTE-FORCING.md",
     "Exploitation/LINUX.md",
     "Exploitation/HASHES.md",
+    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Information Gathering/WINDOWS.md",
     "Information Gathering/WEB.md",
     "Information Gathering/TYPES OF INFORMATION.md",
-    "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Information Gathering/SMB.md",
     "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Information Gathering/NFS.md",
     "Information Gathering/NMAP.md",
     "Information Gathering/LINUX.md",
     "Information Gathering/Hashes.md",
-    "Information Gathering/ACTIVE DIRECTORY.md",
     "Information Gathering/FINGERPRINTING.md",
     "Tips, Tricks, and Troubleshooting/SSH.md",
-    "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
-    "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Pasted image 20230604185023.png",
