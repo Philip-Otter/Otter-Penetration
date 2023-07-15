@@ -1,5 +1,5 @@
 ---
-tags: SNMP, Networking, MIB, Key, Encryption, Passwords, Automated_Tools, Brute_Forcing, OIDs, Nmap
+tags: SNMP, Networking, MIB, Keys, Encryption, Passwords, Automated_Tools, Brute_Forcing, OIDs, Nmap
 ---
 	Simple Network Management Protocol
 # Footprinting
