@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/IPMI.md",
+                "file": "Information Gathering/SSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/IPMI.md",
+                "file": "Information Gathering/SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/IPMI.md",
+                "file": "Information Gathering/SSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/IPMI.md"
+                "file": "Information Gathering/SSH.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
-    "Exploitation/IPMI.md",
     "Information Gathering/IPMI.md",
+    "Information Gathering/SSH.md",
+    "Exploitation/IPMI.md",
     "Information Gathering/IMAP and POP 3.md",
     "Information Gathering/SMTP.md",
     "Tips, Tricks, and Troubleshooting/BASH.md",
@@ -174,7 +175,6 @@
     "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
     "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
     "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
-    "TAGS LIST.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
