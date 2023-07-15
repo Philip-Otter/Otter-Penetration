@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Post Exploitation/PRIVILEGE ESCALATION.md",
+                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Post Exploitation/PRIVILEGE ESCALATION.md"
+                "file": "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "08fdc42b90ab6260",
   "lastOpenFiles": [
-    "Post Exploitation/WINDOWS.md",
     "Post Exploitation/PRIVILEGE ESCALATION.md",
+    "Tips, Tricks, and Troubleshooting/SSH TROUBLESHOOTING.md",
+    "Tips, Tricks, and Troubleshooting",
+    "Post Exploitation/WINDOWS.md",
     "Exploitation/SQL INJECTIONS.md",
     "Information Gathering/WEB.md",
     "Information Gathering/NFS.md",
@@ -174,7 +176,6 @@
     "Exploitation/METASPLOIT.md",
     "Exploitation/WEB.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
-    "Lateral Movement/ACTIVE DIRECTORY.md",
     "Pasted image 20230604185023.png",
     "Post Exploitation",
     "Exploitation",
@@ -183,7 +184,6 @@
     "Vulnerability Assessment",
     "Information Gathering",
     "Vulnerability Assessment",
-    "Scanning",
-    "Reconnaissance"
+    "Scanning"
   ]
 }
