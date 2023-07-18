@@ -1,5 +1,5 @@
 ---
-tags: SMB, Nmap, Linux, Windows
+tags: SMB, Nmap, Linux, Windows, Brute_Forcing
 ---
 # enum4linux-ng
 ***
@@ -61,6 +61,9 @@ tags: SMB, Nmap, Linux, Windows
 		
 
 
+## Brute Forcing RIDs (Relative Identifier)
+***
+### `for i in $(seq 500 1100); do rpcclient -N -U "" 10.129.14.128 -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done`
 # smbmap
 ***
 ## Useful commands

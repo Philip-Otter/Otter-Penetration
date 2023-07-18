@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Footprinting",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,6 +141,8 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
+    "Information Gathering/SMB.md",
+    "Information Gathering/ACTIVE DIRECTORY.md",
     "Information Gathering/NFS.md",
     "Game Hacking/CHEAT ENGINE.md",
     "Game Hacking",
@@ -159,7 +161,6 @@
     "Information Gathering/MSSQL.md",
     "Exploitation/SQL INJECTIONS.md",
     "Information Gathering/SNMP.md",
-    "Information Gathering/ACTIVE DIRECTORY.md",
     "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Information Gathering/FINGERPRINTING.md",
     "Pasted image 20230604185023.png",
@@ -168,7 +169,6 @@
     "Exploitation/WINDOWS.md",
     "Exploitation/PROXYCHAINS.md",
     "Information Gathering/WINDOWS.md",
-    "Post Exploitation/WINDOWS.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
