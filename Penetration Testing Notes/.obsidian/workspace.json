@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/WinRM.md",
+                "file": "Game Hacking/CHEAT ENGINE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/WinRM.md",
+                "file": "Game Hacking/CHEAT ENGINE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/WinRM.md",
+                "file": "Game Hacking/CHEAT ENGINE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/WinRM.md"
+                "file": "Game Hacking/CHEAT ENGINE.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "a395877ece08c143",
   "lastOpenFiles": [
-    "Information Gathering/RDP.md",
+    "Game Hacking/CHEAT ENGINE.md",
+    "Game Hacking",
     "Information Gathering/WinRM.md",
+    "Information Gathering/RDP.md",
     "Information Gathering/DNS.md",
     "Information Gathering/SSH.md",
     "Information Gathering/IPMI.md",
@@ -174,7 +176,6 @@
     "Information Gathering/WINDOWS.md",
     "Post Exploitation/WINDOWS.md",
     "Post Exploitation/PRIVILEGE ESCALATION.md",
-    "Tips, Tricks, and Troubleshooting/PYTHON 3.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
@@ -183,7 +184,6 @@
     "Pivoting",
     "Vulnerability Assessment",
     "Information Gathering",
-    "Vulnerability Assessment",
-    "Scanning"
+    "Vulnerability Assessment"
   ]
 }
