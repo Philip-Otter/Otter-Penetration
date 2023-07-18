@@ -1,5 +1,5 @@
 ---
-tags: NFS, Linux, Unix, Footprinting
+tags: NFS, Linux, Unix
 ---
  Network File System
 	Used between Linux and Unix systems
