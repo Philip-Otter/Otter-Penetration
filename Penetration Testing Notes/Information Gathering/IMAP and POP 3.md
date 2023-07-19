@@ -56,9 +56,9 @@ tags: IMAP, POP_3, Email, cURL, Encryption, Nmap, Automated_Tools
 ## Nmap
 ***
 ### use "-sC" flag
-## OpenSSL
+# OpenSSL
 ***
-### `openssl s_client -connect {taret}:{pop3/imaps}`
+## `openssl s_client -connect {taret}:{pop3/imaps}`
 # How It Works
 ***
 	Runs on ports 110, 143, 993, 995
