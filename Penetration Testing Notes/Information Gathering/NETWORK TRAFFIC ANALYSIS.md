@@ -30,6 +30,9 @@ tags: Networking, Web, SMB, Encryption, WireShark, Automated_Tools, Keys, Linux,
 ### RETR
 	Retrieves a file from the server
 ### QUIT
+## Downloading files
+***
+### use the `get`  command
 # HTTPS
 ***
 	Can utilize either TLS or SSL.

@@ -24,6 +24,9 @@ Tags: SMTP, Nmap, Automated_Tools, Email
 	- Prevents disconnection due to timeout
 - QUIT
 
+# Connecting
+***
+## Use telnet to make your connection
 # Footprinting
 ***
 ## Nmap

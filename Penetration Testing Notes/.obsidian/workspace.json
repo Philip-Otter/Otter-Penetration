@@ -11,8 +11,12 @@
             "id": "a395877ece08c143",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Information Gathering/SMTP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smtp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Information Gathering/SMTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Information Gathering/SMTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Information Gathering/SMTP.md"
+              }
             }
           }
         ]
@@ -139,11 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a395877ece08c143",
+  "active": "e479b525e062c7f7",
   "lastOpenFiles": [
+    "Information Gathering/NFS.md",
+    "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Information Gathering/SMB.md",
     "Information Gathering/ACTIVE DIRECTORY.md",
-    "Information Gathering/NFS.md",
     "Game Hacking/CHEAT ENGINE.md",
     "Game Hacking",
     "Information Gathering/WinRM.md",
@@ -168,7 +177,6 @@
     "Exploitation/WIFI.md",
     "Exploitation/WINDOWS.md",
     "Exploitation/PROXYCHAINS.md",
-    "Information Gathering/WINDOWS.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
