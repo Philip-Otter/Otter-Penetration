@@ -6,8 +6,9 @@ tags: IMAP, POP_3, Email, cURL, Encryption, Nmap, Automated_Tools
 ## IMAP
 ***
 - LOGIN
+	- `{commandTag} LOGIN {Username} {Password}`
 - LIST
-	- `LIST "" *`
+	- `{commandTag} LIST "" *`
 		- Lists all directories
 - CREATE
 	- Creates a mailbox
@@ -19,8 +20,10 @@ tags: IMAP, POP_3, Email, cURL, Encryption, Nmap, Automated_Tools
 	- Selects a mailbox
 - UNSELECT
 - FETCH
-	- `FETCH {ID} all`
+	- `{commandTag} FETCH {ID} all`
 		- Retrieves data associated with a message
+	- `{commandTag} FETCH {id} (body[])`
+		- Retrieves the body of the email
 - CLOSE
 	- Removes all messages with the "deleted" flag
 - LOGOUT
