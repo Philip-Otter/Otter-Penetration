@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "imap",
+                "query": "dovecot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a395877ece08c143",
+  "active": "e479b525e062c7f7",
   "lastOpenFiles": [
     "Information Gathering/SNMP.md",
     "Information Gathering/IMAP and POP 3.md",
