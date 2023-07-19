@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Gathering/SMTP.md",
+                "file": "Tips, Tricks, and Troubleshooting/SMB.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Gathering/SMTP.md",
+                "file": "Tips, Tricks, and Troubleshooting/SMB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Gathering/SMTP.md",
+                "file": "Tips, Tricks, and Troubleshooting/SMB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Gathering/SMTP.md"
+                "file": "Tips, Tricks, and Troubleshooting/SMB.md"
               }
             }
           }
@@ -147,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e479b525e062c7f7",
+  "active": "a395877ece08c143",
   "lastOpenFiles": [
+    "Tips, Tricks, and Troubleshooting/SSH.md",
+    "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
+    "Tips, Tricks, and Troubleshooting/QUICK SERVERS.md",
+    "Tips, Tricks, and Troubleshooting/SMB.md",
+    "Information Gathering/SMTP.md",
     "Information Gathering/NFS.md",
     "Information Gathering/NETWORK TRAFFIC ANALYSIS.md",
     "Information Gathering/SMB.md",
@@ -162,7 +166,6 @@
     "Information Gathering/IPMI.md",
     "Exploitation/IPMI.md",
     "Information Gathering/IMAP and POP 3.md",
-    "Information Gathering/SMTP.md",
     "Tips, Tricks, and Troubleshooting/BASH.md",
     "Information Gathering/ORACLE.md",
     "Exploitation/ORACLE.md",
@@ -173,10 +176,6 @@
     "Tips, Tricks, and Troubleshooting/FILE TRANSFER.md",
     "Information Gathering/FINGERPRINTING.md",
     "Pasted image 20230604185023.png",
-    "Exploitation/SHELLS.md",
-    "Exploitation/WIFI.md",
-    "Exploitation/WINDOWS.md",
-    "Exploitation/PROXYCHAINS.md",
     "Tips, Tricks, and Troubleshooting",
     "Quick Scripts",
     "Post Exploitation",
