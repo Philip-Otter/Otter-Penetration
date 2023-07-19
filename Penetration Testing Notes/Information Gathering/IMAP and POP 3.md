@@ -24,6 +24,10 @@ tags: IMAP, POP_3, Email, cURL, Encryption, Nmap, Automated_Tools
 - CLOSE
 	- Removes all messages with the "deleted" flag
 - LOGOUT
+## Command Tags
+***
+	Command tags are a just a user generated value that proceeds the command.
+	The point of command tags is so that we can track what the server responses are for each command that we run.
 
 ## POP 3
 ***
