@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/TYPES OF SHELLS.md",
+                "file": "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/TYPES OF SHELLS.md",
+                "file": "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/TYPES OF SHELLS.md",
+                "file": "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips, Tricks, and Troubleshooting/TYPES OF SHELLS.md"
+                "file": "Tips, Tricks, and Troubleshooting/UPGRADING SHELLS.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f77bdbac9edbf87",
+  "active": "a395877ece08c143",
   "lastOpenFiles": [
-    "Information Gathering/SHELLS.md",
     "Tips, Tricks, and Troubleshooting/TYPES OF SHELLS.md",
+    "Information Gathering/SHELLS.md",
     "Information Gathering/SMB.md",
     "Information Gathering/WinRM.md",
     "Information Gathering/SSH.md",
